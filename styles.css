@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; background-color: var(--pale-blue);}
 .attribution a { color: hsl(228, 45%, 44%); }
+.attribution p { 
+    font-size: 11px;
+ }
 
 :root{
     --light-red: hsl(0, 100%, 67%);
@@ -31,7 +34,7 @@
     font-family: "Hanken Grotesk", sans-serif;
 }
 
-body{
+.main{
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -183,7 +186,7 @@ body{
 }
 
 @media screen and (max-width:650px){
-    body{
+    main{
         background-color: white;
         align-items: flex-start;
     }
